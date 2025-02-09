@@ -1,0 +1,68 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<User> UserManager
+
+@{
+    var userName = User.Identity?.Name;
+    var isAuthenticated = User.Identity.IsAuthenticated;
+    var roles = new List<string>();
+
+
+    if (isAuthenticated)
+    {
+        var user = await UserManager.GetUserAsync(User);
+
+        if (user != null)
+        {
+            roles = (await UserManager.GetRolesAsync(user)).ToList();
+        }
+    }
+
+}
+
+
+<div>
+    <h2>Стартовая страница</h2>
+
+    @if (isAuthenticated)
+    {
+        <p>Добро пожаловать, @userName!</p>
+        <p>Роли:</p>
+        @if (roles.Any())
+        {
+            <ul>
+                @foreach (var role in roles)
+                {
+                    <li>@role</li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>У вас нет назначенных ролей</p>
+        }
+
+    }
+
+    <nav>
+        <ul>
+            @if (!isAuthenticated)
+            {
+                <li><a href="@Url.Action("Register", "Administrator", new { returnController = "Home", returnAction = "Index" })" ,>Зарегистрироваться</a></li>
+                <li><a href="@Url.Action("SignIn", "Administrator", new { returnController = "Home", returnAction = "Index" })">Авторизоваться</a></li>
+            }
+            else
+            {
+                <li><a href="@Url.Action("SignOut", "Administrator", new { returnController = "Home", returnAction = "Index" })">Выйти</a></li>
+                <li><a href="@Url.Action("ChangePassword", "Administrator", new { returnController = "Home", returnAction = "Index" })">Изменить пароль</a></li>
+                <li><a href="@Url.Action("Index", "Calc")">Калькулятор</a></li>
+
+                @if (!User.IsInRole("Administrator"))
+                {
+                    <li><a href="@Url.Action("Unsubscribe", "Administrator")">Отписаться</a></li>
+                }
+
+                <li><a href="@Url.Action("Index", "Administrator")">Админ панель</a></li>                
+            }
+        </ul>
+    </nav>
+</div>

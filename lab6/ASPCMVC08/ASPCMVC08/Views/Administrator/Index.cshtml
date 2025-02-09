@@ -1,0 +1,83 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<ASPCMVC08.Models.User>
+@inject UserManager<User> UserManager
+
+@{
+    var userName = User.Identity?.Name;
+    var isAuthenticated = User.Identity.IsAuthenticated;
+    var roles = new List<string>();
+
+
+    if (isAuthenticated)
+    {
+        var user = await UserManager.GetUserAsync(User);
+
+        if (user != null)
+        {
+            roles = (await UserManager.GetRolesAsync(user)).ToList();
+        }
+    }
+}
+
+<div>
+    <h2>Админ панель</h2>
+
+    @if (isAuthenticated)
+    {
+        <p>Добро пожаловать, @userName!</p>
+        <p>Роли:</p>
+        @if (roles.Any())
+        {
+            <ul>
+                @foreach (var role in roles)
+                {
+                    <li>@role</li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>У вас нет назначенных ролей</p>
+        }
+
+    }
+    @if (User.IsInRole("Administrator"))
+    {
+        <table class="table">
+            <tr><th>Email</th><th>Год</th><th>Роли</th><th></th></tr>
+            @foreach (var user in @UserManager.Users.ToList())
+            {
+                <tr>
+                    <td>@user.Email</td>
+                    <td>@user.Year</td>
+                    <td>
+                        @{
+                            var userRoles = await UserManager.GetRolesAsync(user);
+                            var rolesString = string.Join(", ", userRoles);
+                        }
+                        @rolesString
+                    </td>
+
+                    <td>
+                        <form asp-action="DeleteUser" asp-controller="Administrator" asp-route-id="@user.Id" asp-route-returnController="Administrator" asp-route-returnAction="Index" method="get">
+                            <a method="get" class="btn btn-sm btn-primary" asp-action="Assign" asp-controller="Administrator" asp-route-id="@user.Id" asp-route-returnController="Administrator" asp-route-returnAction="Index">Назначить роли</a>
+                            <button type="submit" class="btn btn-sm btn-danger">
+                                Удалить
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </table>
+
+        <nav>
+            <ul>
+                <li><a href="@Url.Action("CreateUser", "Administrator", new { returnController = "Administrator", returnAction = "Index" })">Создать пользователя</a></li>
+                <li><a href="@Url.Action("CreateRole", "Administrator", new { returnController = "Administrator", returnAction = "Index" })">Создать роль</a></li>
+                <li><a href="@Url.Action("DeleteRole", "Administrator", new { returnController = "Administrator", returnAction = "Index" })">Удалить роль</a></li>
+                <li><a href="@Url.Action("Index", "Home")">Назад</a></li>
+
+            </ul>
+        </nav>
+    }
+</div>

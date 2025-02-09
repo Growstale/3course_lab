@@ -1,0 +1,37 @@
+﻿@model CalcViewModel
+
+@{
+    Layout = null;
+    string action = "Sum";
+    string? press = Model.press;
+    switch (press)
+    {
+        case "+": action = "Sum"; break;
+        case "-": action = "Sub"; break;
+        case "*": action = "Mul"; break;
+        case "/": action = "Div"; break;
+        default: action = "Index"; break;
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Calc</title>
+</head>
+<body>
+    @await Html.PartialAsync("_CalcLink")
+    @if (!String.IsNullOrEmpty(press))
+    {
+        @using (Html.BeginForm(action, "Calc", FormMethod.Post))
+        {
+            <p>
+                @await Html.PartialAsync("_Calc")
+                <input type="submit" name="press" value="@press" />
+            </p>
+            <p>@(Model.error)</p>
+        }
+    }
+</body>
+</html>

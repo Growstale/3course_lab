@@ -1,0 +1,13 @@
+﻿@model DeleteUserViewModel
+<h2>Удаление учетной записи пользователя</h2>
+
+<p>Вы уверены, что хотите удалить учетную запись @Model.Email? Это действие необратимо</p>
+
+<form asp-action="DeleteUser" asp-controller="Administrator" method="post">
+    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+    <input type="hidden" asp-for="returnAction" />
+    <input type="hidden" asp-for="returnController" />
+
+    <button type="submit" class="btn btn-danger">Удалить учетную запись пользователя</button>
+    <a asp-controller="@Model.returnController" asp-action="@Model.returnAction" class="btn btn-primary">Назад</a>
+</form>

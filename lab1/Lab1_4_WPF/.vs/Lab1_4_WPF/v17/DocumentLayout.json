@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\5sem_BSTU\\STRWP\\lab1\\Lab1_4_WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57D463EA-1C8D-4D4C-9670-34BB9E4860BA}|Lab1_4_WPF\\Lab1_4_WPF.csproj|d:\\5sem_bstu\\strwp\\lab1\\lab1_4_wpf\\lab1_4_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D463EA-1C8D-4D4C-9670-34BB9E4860BA}|Lab1_4_WPF\\Lab1_4_WPF.csproj|solutionrelative:lab1_4_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D463EA-1C8D-4D4C-9670-34BB9E4860BA}|Lab1_4_WPF\\Lab1_4_WPF.csproj|D:\\5sem_BSTU\\STRWP\\lab1\\Lab1_4_WPF\\lab1_4_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57D463EA-1C8D-4D4C-9670-34BB9E4860BA}|Lab1_4_WPF\\Lab1_4_WPF.csproj|solutionrelative:lab1_4_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab1\\Lab1_4_WPF\\Lab1_4_WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Lab1_4_WPF\\MainWindow.xaml",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab1\\Lab1_4_WPF\\Lab1_4_WPF\\MainWindow.xaml",
+              "RelativeToolTip": "Lab1_4_WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-07T16:00:15.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab1\\Lab1_4_WPF\\Lab1_4_WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab1_4_WPF\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab1\\Lab1_4_WPF\\Lab1_4_WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lab1_4_WPF\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwDMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T16:00:14.344Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

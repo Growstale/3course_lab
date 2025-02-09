@@ -1,0 +1,11 @@
+﻿@model SignOutViewModel
+
+<h2>Подтверждение выхода</h2>
+<p>Вы действительно хотите выйти из системы?</p>
+
+<form asp-action="SignOut" asp-controller="Administrator" method="post">
+    <input type="hidden" asp-for="returnAction" />
+    <input type="hidden" asp-for="returnController" />
+    <button type="submit" class="btn btn-danger">Выйти</button>
+    <a asp-controller="@Model.returnController" asp-action="@Model.returnAction" class="btn btn-primary">Назад</a>
+</form>

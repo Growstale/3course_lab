@@ -1,0 +1,19 @@
+﻿<h1>Произошла ошибка</h1>
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <p>@ViewBag.ErrorMessage</p>
+}
+else
+{
+    <p>Произошла неизвестная ошибка. Пожалуйста, повторите попытку позже</p>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.PreviousUrl))
+{
+    <a href="@ViewBag.PreviousUrl" class="btn btn-secondary">Назад</a>
+}
+else
+{
+    <a asp-action="Index" asp-controller="Home" class="btn btn-secondary">Назад</a>
+}

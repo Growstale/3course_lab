@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|d:\\5sem_bstu\\strwp\\lab5\\aspcmvc07\\aspcmvc07\\views\\calc\\calc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|solutionrelative:aspcmvc07\\views\\calc\\calc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|d:\\5sem_bstu\\strwp\\lab5\\aspcmvc07\\aspcmvc07\\controllers\\calccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|solutionrelative:aspcmvc07\\controllers\\calccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|d:\\5sem_bstu\\strwp\\lab5\\aspcmvc07\\aspcmvc07\\views\\calc\\_calc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|solutionrelative:aspcmvc07\\views\\calc\\_calc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|d:\\5sem_bstu\\strwp\\lab5\\aspcmvc07\\aspcmvc07\\views\\calc\\_calclink.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|solutionrelative:aspcmvc07\\views\\calc\\_calclink.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|d:\\5sem_bstu\\strwp\\lab5\\aspcmvc07\\aspcmvc07\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|solutionrelative:aspcmvc07\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|d:\\5sem_bstu\\strwp\\lab5\\aspcmvc07\\aspcmvc07\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|solutionrelative:aspcmvc07\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|d:\\5sem_bstu\\strwp\\lab5\\aspcmvc07\\aspcmvc07\\models\\calcmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|solutionrelative:aspcmvc07\\models\\calcmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|d:\\5sem_bstu\\strwp\\lab5\\aspcmvc07\\aspcmvc07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|solutionrelative:aspcmvc07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|d:\\5sem_bstu\\strwp\\lab5\\aspcmvc07\\aspcmvc07\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|solutionrelative:aspcmvc07\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|d:\\5sem_bstu\\strwp\\lab5\\aspcmvc07\\aspcmvc07\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|solutionrelative:aspcmvc07\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|d:\\5sem_bstu\\strwp\\lab5\\aspcmvc07\\aspcmvc07\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|solutionrelative:aspcmvc07\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|d:\\5sem_bstu\\strwp\\lab5\\aspcmvc07\\aspcmvc07\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|solutionrelative:aspcmvc07\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|d:\\5sem_bstu\\strwp\\lab5\\aspcmvc07\\aspcmvc07\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B1A47B9-CBB7-40F7-B1BF-20F3E1E04DB4}|ASPCMVC07\\ASPCMVC07.csproj|solutionrelative:aspcmvc07\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASPCMVC07\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASPCMVC07\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T06:56:39.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calc.cshtml",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\Calc\\Calc.cshtml",
+              "RelativeDocumentMoniker": "ASPCMVC07\\Views\\Calc\\Calc.cshtml",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\Calc\\Calc.cshtml",
+              "RelativeToolTip": "ASPCMVC07\\Views\\Calc\\Calc.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T06:09:41.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalcController.cs",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Controllers\\CalcController.cs",
+              "RelativeDocumentMoniker": "ASPCMVC07\\Controllers\\CalcController.cs",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Controllers\\CalcController.cs",
+              "RelativeToolTip": "ASPCMVC07\\Controllers\\CalcController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAswHIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:06:44.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CalcModel.cs",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Models\\CalcModel.cs",
+              "RelativeDocumentMoniker": "ASPCMVC07\\Models\\CalcModel.cs",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Models\\CalcModel.cs",
+              "RelativeToolTip": "ASPCMVC07\\Models\\CalcModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T16:06:51.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Program.cs",
+              "RelativeDocumentMoniker": "ASPCMVC07\\Program.cs",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Program.cs",
+              "RelativeToolTip": "ASPCMVC07\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:36:05.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ASPCMVC07\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ASPCMVC07\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T06:55:50.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_CalcLink.cshtml",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\Calc\\_CalcLink.cshtml",
+              "RelativeDocumentMoniker": "ASPCMVC07\\Views\\Calc\\_CalcLink.cshtml",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\Calc\\_CalcLink.cshtml",
+              "RelativeToolTip": "ASPCMVC07\\Views\\Calc\\_CalcLink.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T07:15:50.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Calc.cshtml",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\Calc\\_Calc.cshtml",
+              "RelativeDocumentMoniker": "ASPCMVC07\\Views\\Calc\\_Calc.cshtml",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\Calc\\_Calc.cshtml",
+              "RelativeToolTip": "ASPCMVC07\\Views\\Calc\\_Calc.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T07:17:11.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ASPCMVC07\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ASPCMVC07\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:06:51.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ASPCMVC07\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ASPCMVC07\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T06:56:46.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ASPCMVC07\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ASPCMVC07\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T06:56:48.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ASPCMVC07\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ASPCMVC07\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T07:03:46.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ASPCMVC07\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\5sem_BSTU\\STRWP\\lab5\\ASPCMVC07\\ASPCMVC07\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ASPCMVC07\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T16:10:41.669Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

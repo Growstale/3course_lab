@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject RoleManager<IdentityRole> RoleManager
+@model DeleteRoleViewModel
+
+<h2>Список ролей</h2>
+<table class="table">
+    @foreach (var role in RoleManager.Roles.ToList())
+    {
+        <tr>
+            <td>@role.Name</td>
+            <td>
+                <form asp-action="DeleteRole" method="post">
+                    <input type="hidden" asp-for="id" value="@role.Id" />
+                    <input type="hidden" asp-for="returnAction" />
+                    <input type="hidden" asp-for="returnController" />
+
+                    <button type="submit" class="btn btn-sm btn-danger">
+                        Удалить
+                    </button>
+
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+<div asp-validation-summary="All" class="text-danger"></div>
+<a asp-controller="@Model.returnController" asp-action="@Model.returnAction" class="btn btn-primary">Назад</a>
